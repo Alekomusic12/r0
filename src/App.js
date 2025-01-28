@@ -1,17 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import greeting from './components/pure/greeting';
-
+import React from "react";
+import "./App.css";
+import logo from "./logo.svg";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        {/* compontente propio greeting */}
-        <greeting>
-          
-        </greeting>
+      <img src={logo} className="App-logo" alt="logo" />                                 
+        <p>
+        <h1>hola mundo</h1>
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
